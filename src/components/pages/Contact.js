@@ -1,7 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Button from "@mui/material/Button";
+import Box from '@mui/material/Box';
 
-export default function Contact(){
+export default function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -25,6 +27,7 @@ export default function Contact(){
   };
 
   return (
+    <Box direction="row" style={{marginTop: '50px', borderRadius:'3px', padding:"2px 2px", width: "100%", display: 'flex', justifyContent:'center', flexDirection: 'row'}} >
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" />
@@ -32,7 +35,11 @@ export default function Contact(){
       <input type="email" name="user_email" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <Button type="submit" value ="Send" variant="contained" >
+        Send
+      </Button>
+  
     </form>
+    </Box>
   );
-};
+}

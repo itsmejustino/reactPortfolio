@@ -1,12 +1,17 @@
 import React from "react";
 import Tabs from "@mui/material/Button";
+import Button from "@mui/material/Button";
+import Box from "@mui/material/Box";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <Tabs >
-      <ul>
-        <li style={{ listStyleType: "none", textDecoration: "none" }}>
+    <Box style={{margin: 0, backgroundColor: "#737b7d", borderRadius:'3px', padding:"2px 2px", width: "100%", }} > 
+   
+      <ul style={{ display: "flex", justifyContent: "flex-end", gap:".5rem" }}>
+      <Button variant ="contained" style={{ fill:"white" }} >
+        <li style={{ listStyleType: "none" ,}}>
           <a
+           style={{ textDecoration: "none" , }}
             href="#home"
             onClick={() => handlePageChange("Home")}
          
@@ -15,8 +20,11 @@ function NavTabs({ currentPage, handlePageChange }) {
             Home
           </a>
         </li>
-        <li style={{ listStyleType: "none", textDecoration: "none" }} >
+        </Button>
+        <Button variant ="text" >
+        <li style={{ listStyleType: "none" }} >
           <a
+           style={{ textDecoration: "none" }}
             href="#about"
             onClick={() => handlePageChange("About")}
           
@@ -25,8 +33,11 @@ function NavTabs({ currentPage, handlePageChange }) {
            About
           </a>
         </li>
+        </Button>
+        <Tabs>
         <li style={{ listStyleType: "none", textDecoration: "none" }} >
           <a
+           style={{listStyleType: "none", textDecoration: "none" }}
             href="#projects"
             onClick={() => handlePageChange("Project")}
            
@@ -35,8 +46,11 @@ function NavTabs({ currentPage, handlePageChange }) {
            Projects
           </a>
         </li>
+        </Tabs>
+        <Tabs>
         <li style={{ listStyleType: "none", textDecoration: "none" }} >
           <a
+           style={{listStyleType: "none", textDecoration: "none" }}
             href="#contact"
             onClick={() => handlePageChange("Contact")}
             
@@ -45,18 +59,24 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
           </a>
         </li>
+        </Tabs>
+        <Tabs>
         <li style={{ listStyleType: "none", textDecoration: "none" }} >
           <a
-            href="#reume"
-            onClick={() => handlePageChange("Resume")}
+           style={{listStyleType: "none", textDecoration: "none" }}
+            href={require("../components/assets/docs/Justin Ortiz Resume.pdf")} 
+            download="JustinOResume"
+            // onClick={() => handlePageChange("Resume")}
        
-            className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+            // className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
           >
          Resume
           </a>
         </li>
+        </Tabs>
       </ul>
-    </Tabs>
+    
+    </Box>
   );
 }
 
