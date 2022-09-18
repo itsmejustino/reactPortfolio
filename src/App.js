@@ -1,6 +1,6 @@
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import PageHandler from "./components/PageHandler";
 
-const App = () => <PortfolioContainer />;
+const App = () => <PageHandler />;
 
 export default App;
