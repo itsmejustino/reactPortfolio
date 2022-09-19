@@ -77,15 +77,17 @@ export default function Contact() {
             name="message"
           />
           <Button
+          variant="contained"
             style={{
               display: "flex",
               justifyContent: "center",
               flexDirection: "row",
               marginTop: 10,
+              backgroundColor:'#2c698d'
             }}
             type="submit"
             value="Send"
-            variant="contained"
+            
             endIcon={<SendIcon />}
           >
             Send Message
