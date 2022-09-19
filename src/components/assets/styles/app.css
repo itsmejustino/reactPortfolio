@@ -2,13 +2,68 @@
 *{
     font-family: 'Poppins', sans-serif;
     /* background-color: #737b7d */
+   
+}
+
+body{
+    background-image: url('/src/components/assets/pictures/gradient.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    
+}
+.svgContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1em;
+    margin: 10px;
+  }
+  .linkedin,
+  .github
+  {
+    color:black;
+  }
+  .linkedin svg:hover {
+    fill: #2c698d;
+  }
+  
+  .github svg:hover {
+    fill:#2c698d;
+    text-decoration: none;
+  }
+.contactContainer{
+
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+}
+.gradient{
+    background: radial-gradient(circle at right top, #12493a , #d2e8e7)
 }
 
 .skillsSection {
     display: flex;
     justify-content: center;
+    
   }
-  .skillsContainer {
+
+ .noActive:visited,
+ .noActive:link,
+ .noActive:active{
+
+  text-decoration: none;
+  color: black;
+
+ }
+ 
+ 
+.skillsContainer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -18,3 +73,7 @@
     margin-left: 50px;
     border-radius: 10px;
   }
+
+.backgroundImage{ 
+    background-image:'url(${"static/src/img/main.jpg"})'
+}
