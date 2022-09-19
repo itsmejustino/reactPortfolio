@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.js": "/reactPortfolio/static/js/main.7cdad2c3.js",
+    "main.css": "/reactPortfolio/static/css/main.f1730fbf.css",
+    "main.js": "/reactPortfolio/static/js/main.230fc7d6.js",
+    "static/media/gradient.jpeg": "/reactPortfolio/static/media/gradient.8d26de26f5f49525b7d7.jpeg",
+    "static/media/Justin Ortiz Resume.pdf": "/reactPortfolio/static/media/Justin Ortiz Resume.9684c63ce6c0ff3008ab.pdf",
     "index.html": "/reactPortfolio/index.html",
-    "main.7cdad2c3.js.map": "/reactPortfolio/static/js/main.7cdad2c3.js.map"
+    "main.f1730fbf.css.map": "/reactPortfolio/static/css/main.f1730fbf.css.map",
+    "main.230fc7d6.js.map": "/reactPortfolio/static/js/main.230fc7d6.js.map"
   },
   "entrypoints": [
-    "static/js/main.7cdad2c3.js"
+    "static/css/main.f1730fbf.css",
+    "static/js/main.230fc7d6.js"
   ]
 }
