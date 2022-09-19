@@ -1,79 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
-*{
-    font-family: 'Poppins', sans-serif;
-    /* background-color: #737b7d */
-   
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #737b7d */
+  ;
 }
 
-body{
-    background-image: url('/src/components/assets/pictures/gradient.jpeg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: auto;
-    
-}
-.svgContainer {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    gap: 1em;
-    margin: 10px;
-  }
-  .linkedin,
-  .github
-  {
-    color:black;
-  }
-  .linkedin svg:hover {
-    fill: #2c698d;
-  }
+body {
+  background-image: linear-gradient(to right bottom, #2c698d, #5a82a2, #809cb7, #a5b7cc, #c9d3e1, #ccd7e4, #cfdae6, #d2dee9, #b3cbd8, #92b8c5, #71a6ae, #529495);
+  /* background-image: url("/src/components/assets/pictures/gradient.jpeg"); */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   
-  .github svg:hover {
-    fill:#2c698d;
-    text-decoration: none;
-  }
-.contactContainer{
-
-    display:flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem; 
 }
-.gradient{
-    background: radial-gradient(circle at right top, #12493a , #d2e8e7)
+.navTab{
+  margin-bottom: 50px;
+}
+
+.noActive:visited,
+.noActive:link,
+.noActive:active {
+  text-decoration: none;
+  color: black;
+}
+
+.svgContainer {
+ display: flex;
+  gap: 1em;
+ 
+} 
+.linkedin,
+.github {
+  color: black;
+}
+.linkedin svg:hover {
+  fill: #2c698d;
 }
 
 .skillsSection {
-    display: flex;
-    justify-content: center;
-    
-  }
-
- .noActive:visited,
- .noActive:link,
- .noActive:active{
-
-  text-decoration: none;
-  color: black;
-
- }
- 
- 
-.skillsContainer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 2%;
-    background: rgb(225, 222, 222);
-    margin-right: 50px;
-    margin-left: 50px;
-    border-radius: 10px;
-  }
-
-.backgroundImage{ 
-    background-image:'url(${"static/src/img/main.jpg"})'
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
 }
+.skillsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  background: rgb(225, 222, 222);
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.github svg:hover {
+  fill: #2c698d;
+  text-decoration: none;
+}
+footer{
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+  bottom:0;
+  right:0;
+  left:0;
+  position: relative;
+  min-height: 100vh;
+}
+.footerContainer {
+  margin-top: 2em;
+ 
+}
+.contactContainer {
+}
+
+
