@@ -48,10 +48,12 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 2%;
-  background: rgb(225, 222, 222);
+  /* background: rgb(225, 222, 222); */
   margin-right: 50px;
   margin-left: 50px;
   border-radius: 10px;
+  gap: .25em;
+  padding: 1.2em;
 }
 
 .github svg:hover {
@@ -76,5 +78,23 @@ footer{
   display: flex;
   justify-content: space-around;
 }
+.projectsHeader{
+  display: flex;
+  justify-content: center;
+  padding: 1.2em;
+}
 
+.jsContainer,
+.htmlContainer,
+.bulmaContainer,
+.nodeContainer,
+.cssContainer,
+.reactContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
 

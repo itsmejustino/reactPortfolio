@@ -4,6 +4,7 @@ export default function About() {
   return (
     <div>
       <h1>About Page</h1>
+      
       <p>
         Since I was young I always had an interest in building and
         deconstructing things. My infatuation with learning and learning how
