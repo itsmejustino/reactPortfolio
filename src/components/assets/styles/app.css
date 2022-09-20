@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: linear-gradient(to right bottom, #2c698d, #5a82a2, #809cb7, #a5b7cc, #c9d3e1, #ccd7e4, #cfdae6, #d2dee9, #b3cbd8, #92b8c5, #71a6ae, #529495);
+  background-image: linear-gradient(to right bottom, #2c698d, #5a82a2, #809cb7, #a5b7cc, #c9d3e1, #ccd6e2, #cfdae4, #d3dde5, #b6c8d1, #98b4bc, #7ba0a6, #608d8d);
   /* background-image: url("/src/components/assets/pictures/gradient.jpeg"); */
   background-size: cover;
   background-position: center center;
@@ -72,7 +72,9 @@ footer{
   margin-top: 2em;
  
 }
-.contactContainer {
+.projectContainer {
+  display: flex;
+  justify-content: space-around;
 }
 
 
