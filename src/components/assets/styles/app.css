@@ -81,7 +81,7 @@ footer{
 .projectsHeader{
   display: flex;
   justify-content: center;
-  padding: 1.2em;
+  padding: 1em;
 }
 
 .jsContainer,
@@ -89,7 +89,8 @@ footer{
 .bulmaContainer,
 .nodeContainer,
 .cssContainer,
-.reactContainer {
+.reactContainer,
+.muiContainer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
