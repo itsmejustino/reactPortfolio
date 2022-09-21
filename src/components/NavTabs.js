@@ -17,7 +17,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       }}
     >
       <ul style={{ display: "flex",  flexWrap: 'wrap', gap: ".5rem" }}>
-        <Button variant="contained" style={{ color:'white', listStyleType: "none", backgroundColor:'#2c698d' }}>
+        <Button variant="outlined" color='inherit' style={{ color:'#2c698d', listStyleType: "none",  }}>
           <li style={{ listStyleType: "none", textDecoration: "none" }}>
             <a
               style={{ textDecoration: "none" }}
@@ -29,7 +29,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             </a>
           </li>
         </Button>
-        <Button variant="contained" style={{ listStyleType: "none", backgroundColor:'#2c698d' }}>
+        <Button variant="outlined" color='inherit' style={{ color:'#2c698d',listStyleType: "none"  }}>
           <li style={{ listStyleType: "none" }}>
             <a
               style={{ textDecoration: "none", fontColor:'white' }}
@@ -41,8 +41,8 @@ function NavTabs({ currentPage, handlePageChange }) {
             </a>
           </li>
         </Button>
-        <Button variant="contained" style={{  backgroundColor:'#2c698d' }}>
-          <li style={{ listStyleType: "none", textDecoration: "none", backgroundColor:'#2c698d' }}>
+        <Button variant="outlined" color='inherit' style={{color:'#2c698d',listStyleType: "none"  }}>
+          <li style={{ listStyleType: "none", textDecoration: "none"}}>
             <a
               style={{ listStyleType: "none", textDecoration: "none" }}
               href="#projects"
@@ -53,7 +53,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             </a>
           </li>
         </Button>
-        <Button variant="contained" style={{  backgroundColor:'#2c698d' }}>
+        <Button variant="outlined" color='inherit' style={{ color:'#2c698d',listStyleType: "none" }}>
           <li style={{ listStyleType: "none", textDecoration: "none" }}>
             <a
               style={{ listStyleType: "none", textDecoration: "none" }}
@@ -65,7 +65,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             </a>
           </li>
         </Button >
-        <Button variant= 'contained' style={{ listStyleType: "none", textDecoration: "none" , marginRight:'10px', backgroundColor:'#2c698d'}} endIcon={<DownloadIcon />}  href={require("../components/assets/docs/Justin Ortiz Resume.pdf")}
+        <Button variant="outlined" color='inherit' style={{ color:'#2c698d', listStyleType: "none", textDecoration: "none" , marginRight:'10px'}} endIcon={<DownloadIcon />}  href={require("../components/assets/docs/Justin Ortiz Resume.pdf")}
               download="JustinOResume">
           <li style={{ listStyleType: "none", textDecoration: "none" }}>
           
