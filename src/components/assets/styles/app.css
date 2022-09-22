@@ -76,7 +76,7 @@ body {
   gap: 0.25em;
   padding: 1.2em;
 }
-.skillsHeader{
+.skillsHeader {
   padding-left: 5%;
   text-decoration: underline;
 }
@@ -85,7 +85,7 @@ body {
   fill: #2c698d;
   text-decoration: none;
 }
-footer {
+/* footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -94,10 +94,7 @@ footer {
   left: 0;
   position: relative;
   min-height: 100vh;
-}
-.footerContainer {
-  margin-top: 2em;
-}
+} */
 .projectContainer {
   display: flex;
   justify-content: space-around;
@@ -136,23 +133,21 @@ footer {
   display: flex;
   justify-content: space-between;
   gap: 1em;
-  max-height:300px;
+  max-height: 300px;
   align-items: center;
   flex-wrap: wrap;
-  
 }
-.imgCapture{
+.imgCapture {
   border-radius: 50%;
   max-height: 300px;
-  
 }
-.aboutTextContainer{
-  max-width:75%;
+.aboutTextContainer {
+  max-width: 75%;
   padding: 1rem;
-  
+  min-width: 200px;
 }
 
-.homeTextContainer{
+.homeTextContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,25 +157,27 @@ footer {
 
 .homeText {
   white-space: nowrap;
-  overflow: hidden;    
-  font-family: 'Source Code Pro', monospace;  
+  overflow: hidden;
+  font-family: "Source Code Pro", monospace;
   font-size: 30px;
   color: rgba(8, 8, 8, 0.7);
   margin: auto;
 }
 
-
 @keyframes typeText {
-  0%, 100% {
+  0%,
+  100% {
     width: 0;
   }
-  20%, 80% {
+  20%,
+  80% {
     width: 26.6em;
   }
 }
 
 @keyframes blinkingCarrot {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0;
   }
   50% {
@@ -199,25 +196,50 @@ footer {
   animation-iteration-count: infinite;
 }
 
-
 .homeText::after {
   content: "|";
   position: absolute;
   right: 0;
   animation: blinkingCarrot infinite;
-  animation-duration: .9s;
+  animation-duration: 0.9s;
   animation-timing-function: steps(1, end);
 }
 
-@media only screen and (max-width: 1300px) {
+.copyrightContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: static;
+  bottom: 0;
+  margin-top: 60%;
+  padding: 0;
+}
+
+@media only screen and (max-width: 1400px) {
   .aboutSection {
     padding: 7em;
     display: flex;
     justify-content: center;
     gap: 1em;
-    max-height:400px;
+    max-height: 400px;
     align-items: center;
     flex-wrap: wrap;
-    
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .aboutSection {
+    display: flex;
+    justify-content: center;
+    max-height: 400px;
+    max-width: 85%;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .aboutTextContainer {
+    max-width: 75%;
+    min-width: 200px;
   }
 }
