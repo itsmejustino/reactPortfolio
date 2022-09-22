@@ -5,7 +5,7 @@ import Box from "@mui/material/Box";
 import SendIcon from "@mui/icons-material/Send";
 import TextField from "@mui/material/TextField";
 import TextareaAutosize from "@mui/material/TextareaAutosize";
-import Paper from "@mui/material/Paper";
+
 
 export default function Contact() {
   const form = useRef();

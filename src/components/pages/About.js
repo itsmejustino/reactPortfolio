@@ -1,46 +1,23 @@
 import React from "react";
 import "../assets/styles/app.css";
-import Capture from "../assets/pictures/1623955408464.jpg" 
-import Paper from '@mui/material/Paper';
-
-
+import Capture from "../assets/pictures/1623955408464.jpg";
+import Paper from "@mui/material/Paper";
 
 export default function About() {
-
-  
   return (
     <div>
       <h1>About Page</h1>
       <section className="aboutSection">
+        <img className="imgCapture" src={Capture} alt="ProfilePhoto" />
 
-     <img className="imgCapture" src={Capture} alt="ProfilePhoto"/>
-
-      
-<Paper className="aboutTextContainer" elevation={3}>
-    
-      <p >
-        Since I was young I always had an interest in building and
-        deconstructing things. My infatuation with learning and learning how
-        things worked lead me to computer programming. I grew up heavily
-        submersed in video games and had my first experience with web
-        programming during the MySpace Era. In my early years I was infatuated
-        with how tech worked, and because of this curiosity my interest in
-        programming re-sparked since my last dance with it in Highschool when I
-        learned the fundamentals of C++. After learning that my true passion in
-        life was problem solving and tech I re-immersed myself into the computer
-        programming world to marry the two. I first started by self-teaching via
-        watching Youtube videos, building small apps, and taking classes on
-        Treehouse Learning. After some time self-teaching, I decided to expand
-        my knowledge further by joining the Denver University Full Stack
-        Programming Bootcamp. This Bootcamp has furthered my abilities in
-        learning new programming languages, building apps while working under
-        pressure, and efficiently soaking in information from strategically
-        sourced programming web docs. You will be able to get a great idea of my
-        work by looking through my deployed project quick links listed in the My
-        Projects section of this page.
-      </p>
-      
-  </Paper>
+        <Paper className="aboutTextContainer" elevation={3}>
+          <p>
+            I love building projects and apps that help solve problems and make
+            a change towards greatness in the world. Impacting the world with
+            each new idea made to make a positive change is what the world needs
+            more than ever.
+          </p>
+        </Paper>
       </section>
     </div>
   );
