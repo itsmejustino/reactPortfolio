@@ -15,7 +15,11 @@
 ## Deployed Link
   Skip the installation and check out the live link to the deployed site: itsmejustino.github.io/reactPortfolio/ <br>
 ## Demo
- ![portfolio-gif](https://github.com/itsmejustino/reactPortfolio/blob/main/gif/reactDemo_AdobeExpress%20(3).gif?raw=true)
+
+<p align="center">
+ <img src='/gif/reactDemo_AdobeExpress (3).gif' alt='portfolio-demo-gif'>
+ </p>
+
 ## Contribute
   If you would like to contribute please send a pull request.
 ## Technologies
