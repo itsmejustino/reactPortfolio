@@ -71,7 +71,7 @@ export default function Contact() {
           <label >Message:</label> <br></br>
           <TextareaAutosize
             aria-label="minimum height"
-            minRows={10}
+            minRows={12}
             placeholder="Get in Contact with Me"
             style={{
               borderRadius: "5px",

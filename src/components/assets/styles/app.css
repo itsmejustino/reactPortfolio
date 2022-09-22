@@ -41,8 +41,15 @@ body {
 .noActive:visited,
 .noActive:link,
 .noActive:active {
-  text-decoration: none;
+
   color: black;
+}
+.noActive:focus {
+  background: #2c698d40;
+  outline: none;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
 }
 
 .svgContainer {
@@ -60,6 +67,7 @@ body {
 .skillsSection {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 2%;
   flex-wrap: wrap;
   flex-direction: column;
@@ -77,7 +85,7 @@ body {
   padding: 1.2em;
 }
 .skillsHeader {
-  padding-left: 5%;
+  justify-content: center;
   text-decoration: underline;
 }
 

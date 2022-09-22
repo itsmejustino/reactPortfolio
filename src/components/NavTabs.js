@@ -1,12 +1,12 @@
 import React from "react";
 import Button from "@mui/material/Button";
-import Box from "@mui/material/Box";
+
 import DownloadIcon from "@mui/icons-material/Download";
 import "./assets/styles/app.css";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <Box
+    <nav
       style={{
         display: "flex",
         justifyContent: "flex-end",
@@ -81,7 +81,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </li>
         </Button>
       </ul>
-    </Box>
+    </nav>
   );
 }
 

@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import "./assets/styles/app.css";
+import { Router, Route, IndexRoute } from 'react-router';
 
 export default function PageHandler() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -12,7 +13,7 @@ export default function PageHandler() {
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     if (currentPage === "Home") {
-      return <Home className="gradient" />;
+      return <Home />;
     }
     if (currentPage === "About") {
       return <About />;
