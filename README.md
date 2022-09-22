@@ -3,7 +3,6 @@
 [Description](#description)<br>
 [License](#license)<br>
 [Demo](#demo)<br>
-[Contribute](#contribute)<br>
 [Technologies](#technologies)<br>
 [Questions](#questions)<br>
 [Tests](#tests)<br>
