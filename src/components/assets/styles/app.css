@@ -61,6 +61,8 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 2%;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .skillsContainer {
   display: flex;
@@ -73,6 +75,10 @@ body {
   border-radius: 10px;
   gap: 0.25em;
   padding: 1.2em;
+}
+.skillsHeader{
+  padding-left: 5%;
+  text-decoration: underline;
 }
 
 .github svg:hover {
@@ -95,11 +101,19 @@ footer {
 .projectContainer {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-top: 10%;
 }
 .projectsHeader {
   display: flex;
   justify-content: center;
   padding: 1em;
+  text-decoration: underline;
+}
+.cardsContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .jsContainer,
@@ -115,4 +129,95 @@ footer {
   justify-content: center;
   align-content: center;
   align-items: center;
+}
+
+.aboutSection {
+  padding: 7em;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  max-height:300px;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.imgCapture{
+  border-radius: 50%;
+  max-height: 300px;
+  
+}
+.aboutTextContainer{
+  max-width:75%;
+  padding: 1rem;
+  
+}
+
+.homeTextContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 200px;
+}
+
+.homeText {
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 30px;
+  color: rgba(8, 8, 8, 0.7);
+  margin: auto;
+}
+
+
+@keyframes typeText {
+  0%, 100% {
+    width: 0;
+  }
+  20%, 80% {
+    width: 26.6em;
+  }
+}
+
+@keyframes blinkingCarrot {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.homeText {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typeText;
+  display: inline-block;
+  position: relative;
+  animation-duration: 10s;
+  animation-timing-function: steps(48, end);
+  animation-iteration-count: infinite;
+}
+
+
+.homeText::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  animation: blinkingCarrot infinite;
+  animation-duration: .9s;
+  animation-timing-function: steps(1, end);
+}
+
+@media only screen and (max-width: 1300px) {
+  .aboutSection {
+    padding: 7em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    max-height:400px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
 }

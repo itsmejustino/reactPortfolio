@@ -33,12 +33,11 @@ export default function Projects() {
 
   return (
     <div>
-   
       <section className="skillsSection">
-      <h1> Skills </h1>
+        <h1 className="skillsHeader"> Skills </h1>
         <div className="skillsContainer">
           <div className="jsContainer">
-            <h1>JavaScript/ES6</h1>
+            <h3>JavaScript/ES6</h3>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -53,7 +52,7 @@ export default function Projects() {
           </div>
 
           <div className="htmlContainer">
-            <h1>HTML5</h1>
+            <h3>HTML5</h3>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -67,7 +66,7 @@ export default function Projects() {
             </svg>
           </div>
           <div className="cssContainer">
-            <h1>CSS3</h1>
+            <h3>CSS3</h3>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -85,7 +84,7 @@ export default function Projects() {
           </div>
 
           <div className="bulmaContainer">
-            <h1>Bulma</h1>
+            <h3>Bulma</h3>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -107,7 +106,7 @@ export default function Projects() {
           </div>
 
           <div className="nodeContainer">
-          <h1>Node.JS</h1>
+            <h3>Node.JS</h3>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="200"
@@ -201,95 +200,109 @@ export default function Projects() {
           </div>
 
           <div className="reactContainer">
-          <h1>React.JS</h1>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="-11.5 -10.23174 23 20.46348"
-            width="200"
-            height="122.7"
-          >
-            <title>React Logo</title>
-            <circle cx="0" cy="0" r="2.05" fill="#61dafb" />
-            <g stroke="#61dafb" stroke-width="1" fill="none">
-              <ellipse rx="11" ry="4.2" />
-              <ellipse rx="11" ry="4.2" transform="rotate(60)" />
-              <ellipse rx="11" ry="4.2" transform="rotate(120)" />
-            </g>
-          </svg>
+            <h3>React.JS</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="-11.5 -10.23174 23 20.46348"
+              width="200"
+              height="122.7"
+            >
+              <title>React Logo</title>
+              <circle cx="0" cy="0" r="2.05" fill="#61dafb" />
+              <g stroke="#61dafb" stroke-width="1" fill="none">
+                <ellipse rx="11" ry="4.2" />
+                <ellipse rx="11" ry="4.2" transform="rotate(60)" />
+                <ellipse rx="11" ry="4.2" transform="rotate(120)" />
+              </g>
+            </svg>
           </div>
-          
-          <div className="muiContainer">
-          <h1>Material UI</h1>
-          <svg xmlns="http://www.w3.org/2000/svg" width="150" height="160" viewBox="0 0 36 32" fill="none" class="css-1170n61"><path fill-rule="evenodd" clip-rule="evenodd" d="M30.343 21.976a1 1 0 00.502-.864l.018-5.787a1 1 0 01.502-.864l3.137-1.802a1 1 0 011.498.867v10.521a1 1 0 01-.502.867l-11.839 6.8a1 1 0 01-.994.001l-9.291-5.314a1 1 0 01-.504-.868v-5.305c0-.006.007-.01.013-.007.005.003.012 0 .012-.007v-.006c0-.004.002-.008.006-.01l7.652-4.396c.007-.004.004-.015-.004-.015a.008.008 0 01-.008-.008l.015-5.201a1 1 0 00-1.5-.87l-5.687 3.277a1 1 0 01-.998 0L6.666 9.7a1 1 0 00-1.499.866v9.4a1 1 0 01-1.496.869l-3.166-1.81a1 1 0 01-.504-.87l.028-16.43A1 1 0 011.527.86l10.845 6.229a1 1 0 00.996 0L24.21.86a1 1 0 011.498.868v16.434a1 1 0 01-.501.867l-5.678 3.27a1 1 0 00.004 1.735l3.132 1.783a1 1 0 00.993-.002l6.685-3.839zM31 7.234a1 1 0 001.514.857l3-1.8A1 1 0 0036 5.434V1.766A1 1 0 0034.486.91l-3 1.8a1 1 0 00-.486.857v3.668z" fill="#007FFF"></path></svg>
-        </div>
 
+          <div className="muiContainer">
+            <h3>Material UI</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="120"
+              height="130"
+              viewBox="0 0 36 32"
+              fill="none"
+              class="css-1170n61"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M30.343 21.976a1 1 0 00.502-.864l.018-5.787a1 1 0 01.502-.864l3.137-1.802a1 1 0 011.498.867v10.521a1 1 0 01-.502.867l-11.839 6.8a1 1 0 01-.994.001l-9.291-5.314a1 1 0 01-.504-.868v-5.305c0-.006.007-.01.013-.007.005.003.012 0 .012-.007v-.006c0-.004.002-.008.006-.01l7.652-4.396c.007-.004.004-.015-.004-.015a.008.008 0 01-.008-.008l.015-5.201a1 1 0 00-1.5-.87l-5.687 3.277a1 1 0 01-.998 0L6.666 9.7a1 1 0 00-1.499.866v9.4a1 1 0 01-1.496.869l-3.166-1.81a1 1 0 01-.504-.87l.028-16.43A1 1 0 011.527.86l10.845 6.229a1 1 0 00.996 0L24.21.86a1 1 0 011.498.868v16.434a1 1 0 01-.501.867l-5.678 3.27a1 1 0 00.004 1.735l3.132 1.783a1 1 0 00.993-.002l6.685-3.839zM31 7.234a1 1 0 001.514.857l3-1.8A1 1 0 0036 5.434V1.766A1 1 0 0034.486.91l-3 1.8a1 1 0 00-.486.857v3.668z"
+                fill="#007FFF"
+              ></path>
+            </svg>
+          </div>
         </div>
       </section>
 
-      <h1 className = 'projectsHeader'> My Projects </h1>
-     
       <section className="projectContainer">
-        <Card sx={{ maxWidth: 345, marginTop: 5 }}>
-          <CardHeader title="Pantry-Pal: A Recipe Generator" />
-          <CardMedia
-            component="img"
-            height="194"
-            image={require("../assets/pictures/PantryPal.png")}
-            alt="Pantry-Pal"
-          />
-          <CardContent>
-            <Typography variant="body2" color="text.secondary">
-              Have you ever looked in the pantry and thought "I have nothing
-              good to make for dinner". Pantry-Pal seeks to help its user make
-              that tough decision of what to make for dinner with the random
-              food in the pantry. Users can search a database of recipes with a
-              list of ingredients, keywords, and/or phrases.
-            </Typography>
-          </CardContent>
-          <CardActions disableSpacing>
-            <Typography color="text.secondary">Live Site</Typography>
-            <IconButton aria-label="open live website">
-              <PreviewIcon
-                onClick={(event) =>
-                  window.open("https://pantry-pal1.herokuapp.com/")
-                }
-              />
-            </IconButton>
-            <Typography color="text.secondary">Source Code</Typography>
-            <IconButton aria-label="source code">
-              <SourceIcon
-                onClick={(event) =>
-                  window.open("https://github.com/itsmejustino/Pantry-Pal")
-                }
-              />
-            </IconButton>
-
-            <ExpandMore
-              expand={expanded}
-              onClick={handleExpandClick}
-              aria-expanded={expanded}
-              aria-label="show more"
-            >
-              <ExpandMoreIcon />
-            </ExpandMore>
-          </CardActions>
-          <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <h1 className="projectsHeader"> My Projects </h1>
+        <div className="cardsContainer">
+          <Card sx={{ maxWidth: 345, marginTop: 5 }}>
+            <CardHeader title="Pantry-Pal: A Recipe Generator" />
+            <CardMedia
+              component="img"
+              height="194"
+              image={require("../assets/pictures/PantryPal.png")}
+              alt="Pantry-Pal"
+            />
             <CardContent>
-              <Typography paragraph>Technologies and Use:</Typography>
-              <Typography paragraph>
-                This App was created with JavaScript, HandleBars.js, Node.js,
-                Bootstrap and CSS. This app is hosted on Heroku as a live
-                website. <br></br>
-                <br></br>
-                Note: If you would like to try out without creating an account
-                please use this login.<br></br>
-                <br></br>
-                Email: 'bill@bill.bill'<br></br>
-                Password: 'test1234'
+              <Typography variant="body2" color="text.secondary">
+                Have you ever looked in the pantry and thought "I have nothing
+                good to make for dinner". Pantry-Pal seeks to help its user make
+                that tough decision of what to make for dinner with the random
+                food in the pantry. Users can search a database of recipes with
+                a list of ingredients, keywords, and/or phrases.
               </Typography>
             </CardContent>
-          </Collapse>
-        </Card>
+            <CardActions disableSpacing>
+              <Typography color="text.secondary">Live Site</Typography>
+              <IconButton aria-label="open live website">
+                <PreviewIcon
+                  onClick={(event) =>
+                    window.open("https://pantry-pal1.herokuapp.com/")
+                  }
+                />
+              </IconButton>
+              <Typography color="text.secondary">Source Code</Typography>
+              <IconButton aria-label="source code">
+                <SourceIcon
+                  onClick={(event) =>
+                    window.open("https://github.com/itsmejustino/Pantry-Pal")
+                  }
+                />
+              </IconButton>
+
+              <ExpandMore
+                expand={expanded}
+                onClick={handleExpandClick}
+                aria-expanded={expanded}
+                aria-label="show more"
+              >
+                <ExpandMoreIcon />
+              </ExpandMore>
+            </CardActions>
+            <Collapse in={expanded} timeout="auto" unmountOnExit>
+              <CardContent>
+                <Typography paragraph>Technologies and Use:</Typography>
+                <Typography paragraph>
+                  This App was created with JavaScript, HandleBars.js, Node.js,
+                  Bootstrap and CSS. This app is hosted on Heroku as a live
+                  website. <br></br>
+                  <br></br>
+                  Note: If you would like to try out without creating an account
+                  please use this login.<br></br>
+                  <br></br>
+                  Email: 'bill@bill.bill'<br></br>
+                  Password: 'test1234'
+                </Typography>
+              </CardContent>
+            </Collapse>
+          </Card>
+        </div>
       </section>
     </div>
   );

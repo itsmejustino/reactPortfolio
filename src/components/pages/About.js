@@ -1,11 +1,24 @@
 import React from "react";
+import "../assets/styles/app.css";
+import Capture from "../assets/pictures/1623955408464.jpg" 
+import Paper from '@mui/material/Paper';
+
+
 
 export default function About() {
+
+  
   return (
     <div>
       <h1>About Page</h1>
+      <section className="aboutSection">
+
+     <img className="imgCapture" src={Capture} alt="ProfilePhoto"/>
+
       
-      <p>
+<Paper className="aboutTextContainer" elevation={3}>
+    
+      <p >
         Since I was young I always had an interest in building and
         deconstructing things. My infatuation with learning and learning how
         things worked lead me to computer programming. I grew up heavily
@@ -26,6 +39,9 @@ export default function About() {
         work by looking through my deployed project quick links listed in the My
         Projects section of this page.
       </p>
+      
+  </Paper>
+      </section>
     </div>
   );
 }

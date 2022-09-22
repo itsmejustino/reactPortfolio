@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import SendIcon from "@mui/icons-material/Send";
 import TextField from "@mui/material/TextField";
 import TextareaAutosize from "@mui/material/TextareaAutosize";
+import Paper from "@mui/material/Paper";
 
 export default function Contact() {
   const form = useRef();
@@ -53,7 +54,6 @@ export default function Contact() {
         >
           <div>
             <label>Name: </label> <br></br>
-            {/* <input type="text" name="user_name" /> */}
             <TextField label="Name" id="fullWidth" type="name" name="name" />
           </div>
           <div>
@@ -64,31 +64,34 @@ export default function Contact() {
               type="email"
               name="user_email"
             />
-            {/* <input type="email" name="user_email" /> */}
           </div>
         </div>
 
-        <div>
-          <label>Message:</label> <br></br>
+        <div style={{marginTop:'2%'}}>
+          <label >Message:</label> <br></br>
           <TextareaAutosize
             aria-label="minimum height"
-            minRows={15}
-            placeholder="Type your message here..."
-            style={{ width: 450 }}
+            minRows={10}
+            placeholder="Get in Contact with Me"
+            style={{
+              borderRadius: "5px",
+              background: "transparent",
+              resize: "none",
+              minWidth: "99%",
+            }}
             name="message"
           />
           <Button
-          variant="contained"
+            variant="contained"
             style={{
               display: "flex",
               justifyContent: "center",
               flexDirection: "row",
               marginTop: 10,
-              backgroundColor:'#2c698d'
+              backgroundColor: "#2c698d",
             }}
             type="submit"
             value="Send"
-            
             endIcon={<SendIcon />}
           >
             Send Message
