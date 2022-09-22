@@ -20,8 +20,6 @@ Check out the live site. Here is the link to the deployed site: https://itsmejus
  <img src='/gif/reactDemo_AdobeExpress (3).gif' alt='portfolio-demo-gif'>
  </p>
 
-## Contribute
-  If you would like to contribute please send a pull request.
 ## Technologies
 This app was made by utilizing Javascript ES6, Node.js, React, and a mix of Material UI along with some custom CSS.<br>
 ## Questions 
