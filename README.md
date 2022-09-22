@@ -13,7 +13,7 @@
 ## License
   [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ## Deployed Link
-  Skip the installation and check out the live link to the deployed site: itsmejustino.github.io/reactPortfolio/ <br>
+Check out the live site. Here is the link to the deployed site: https://itsmejustino.github.io/reactPortfolio/ <br>
 ## Demo
 
 <p align="center">
