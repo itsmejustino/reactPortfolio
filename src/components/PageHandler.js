@@ -5,7 +5,6 @@ import About from "./pages/About";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import "./assets/styles/app.css";
-import { Router, Route, IndexRoute } from 'react-router';
 
 export default function PageHandler() {
   const [currentPage, setCurrentPage] = useState("Home");

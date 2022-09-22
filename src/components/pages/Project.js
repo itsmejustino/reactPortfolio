@@ -303,7 +303,7 @@ export default function Projects() {
             </Collapse>
           </Card>
 
-        <div>
+        {/* <div>
           <Card sx={{ maxWidth: 345, marginTop: 5 }}>
             <CardHeader title="Pantry-Pal: A Recipe Generator" />
             <CardMedia
@@ -365,7 +365,7 @@ export default function Projects() {
               </CardContent>
             </Collapse>
           </Card>
-          </div>
+          </div> */}
           
         </div>
       </section>
