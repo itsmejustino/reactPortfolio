@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.ab2bd678.css",
-    "main.js": "/reactPortfolio/static/js/main.93e3daf3.js",
+    "main.css": "/reactPortfolio/static/css/main.83845486.css",
+    "main.js": "/reactPortfolio/static/js/main.53daa26f.js",
     "static/media/Justin Ortiz Resume.pdf": "/reactPortfolio/static/media/Justin Ortiz Resume.9684c63ce6c0ff3008ab.pdf",
     "static/media/1623955408464.jpg": "/reactPortfolio/static/media/1623955408464.ca3a06d297eac4b415ee.jpg",
     "static/media/PantryPal.png": "/reactPortfolio/static/media/PantryPal.02504da1ad563e5a81a5.png",
     "index.html": "/reactPortfolio/index.html",
-    "main.ab2bd678.css.map": "/reactPortfolio/static/css/main.ab2bd678.css.map",
-    "main.93e3daf3.js.map": "/reactPortfolio/static/js/main.93e3daf3.js.map"
+    "main.83845486.css.map": "/reactPortfolio/static/css/main.83845486.css.map",
+    "main.53daa26f.js.map": "/reactPortfolio/static/js/main.53daa26f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab2bd678.css",
-    "static/js/main.93e3daf3.js"
+    "static/css/main.83845486.css",
+    "static/js/main.53daa26f.js"
   ]
 }
