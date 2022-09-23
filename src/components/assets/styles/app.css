@@ -225,7 +225,7 @@ body {
   padding: 0;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1500px) {
   .aboutSection {
     padding: 7em;
     display: flex;
@@ -233,6 +233,7 @@ body {
     gap: 1em;
     max-height: 400px;
     align-items: center;
+    
     flex-wrap: wrap;
   }
 }
