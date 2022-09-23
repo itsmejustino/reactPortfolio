@@ -20,7 +20,7 @@ Check out the live site. Here is the link to the deployed site: https://itsmejus
  </p>
 
 ## Technologies
-This app was made by utilizing Javascript ES6, Node.js, React, and a mix of Material UI along with some custom CSS.<br>
+This app was made by utilizing Javascript ES6, React, and a mix of Material UI along with some custom CSS.<br>
 ## Questions 
 If you are interested in contacting me regarding this project please send me an email at the address listed below.
 ### Github Username: 
