@@ -39,7 +39,7 @@ export default function ProjectFour({ props }) {
        
         <div className="cardsContainer">
           <Card sx={{ maxWidth: 345, marginTop: 5 }}>
-            <CardHeader title="Pantry-Pal: A Recipe Generator" />
+            <CardHeader title="Make-A-Readme: README.md file generator" />
             <CardMedia
               component="img"
               height="194"
