@@ -103,6 +103,16 @@ body {
   position: relative;
   min-height: 100vh;
 } */
+
+.projectsDiv{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items:center;
+  align-content:center;
+  gap: 2em;
+}
 .projectContainer {
   display: flex;
   justify-content: space-around;
