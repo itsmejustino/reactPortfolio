@@ -83,7 +83,7 @@ export default function ProjectFour({ props }) {
                 <Typography paragraph>Technologies and Use:</Typography>
                 <Typography paragraph>
                  This app was created with Javascript and Node.js. API calls were made with Insomnia.<br></br>
-                 This app has created many of my own readmes and includes the option
+                 This app has created many of my own readmes and includes the option to provide a license included with svg and link.
 
             
                 </Typography>
