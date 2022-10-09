@@ -73,7 +73,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             marginRight: "10px",
           }}
           endIcon={<DownloadIcon />}
-          href={require("../components/assets/docs/Justin Ortiz Resume.pdf")}
+          href={require("../components/assets/docs/Justin_Ortiz_Resume.pdf")}
           download="JustinOResume"
         >
           <li style={{ listStyleType: "none", textDecoration: "none" }}>
