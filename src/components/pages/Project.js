@@ -5,6 +5,7 @@ import ProjectTwo from "./cardTwoComponent";
 import ProjectThree from "./cardThreeComponent";
 import ProjectFour from "./cardFourComponent";
 import SkillsComponent from "./skillsComponent";
+import ProjectFive from "./cardstarComponent";
 
 export default function ProjectsMain() {
   return (
@@ -14,7 +15,7 @@ export default function ProjectsMain() {
       </div>
       <h1 className="projectsHeader"> My Projects </h1>
       <div className="projectsDiv">
-     
+        <ProjectFive />
         <Projects />
         <ProjectTwo />
         <ProjectThree />
