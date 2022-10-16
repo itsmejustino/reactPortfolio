@@ -81,7 +81,7 @@ body {
   margin-right: 50px;
   margin-left: 50px;
   border-radius: 10px;
-  gap: 0.25em;
+  gap: 2em;
   padding: 1.2em;
 }
 .skillsHeader {
@@ -137,7 +137,13 @@ body {
 .nodeContainer,
 .cssContainer,
 .reactContainer,
-.muiContainer {
+.muiContainer,
+.mongodbContainer,
+.mySqlContainer,
+.redwoodContainer,
+.railwayContainer,
+.herokuContainer,
+.netlifyContainer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -145,6 +151,7 @@ body {
   align-content: center;
   align-items: center;
 }
+
 
 .aboutSection {
   padding: 7em;
@@ -168,6 +175,7 @@ body {
 .homeTextContainer {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   align-content: center;
   margin-top: 200px;

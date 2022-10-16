@@ -24,8 +24,6 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-
-
 export default function ProjectFour({ props }) {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -36,7 +34,6 @@ export default function ProjectFour({ props }) {
   return (
     <div>
       <section className="projectContainer">
-       
         <div className="cardsContainer">
           <Card sx={{ maxWidth: 345, marginTop: 5 }}>
             <CardHeader title="Make-A-Readme: README.md file generator" />
@@ -48,25 +45,34 @@ export default function ProjectFour({ props }) {
             />
             <CardContent>
               <Typography variant="body" color="text.secondary">
-               Make-a-Readme is a README.md generator for developers to help with creating a readme file for your projects. This app is a desktop application that requires installation of Node.js and a an integrated development environment of choice. Answering a list of prompts and invoking the program will create a detailed readme file. 
+                Make-a-Readme is a README.md generator for developers to help
+                with creating a readme file for your projects. This app is a
+                desktop application that requires installation of Node.js and a
+                an integrated development environment of choice. Answering a
+                list of prompts and invoking the program will create a detailed
+                readme file.
               </Typography>
             </CardContent>
             <CardActions disableSpacing>
               <Typography color="text.secondary">Demo</Typography>
-              <IconButton aria-label="open live website">
-                <PreviewIcon
-                  onClick={(event) =>
-                    window.open("https://drive.google.com/file/d/1TMLQKNRXldldiwccZ4G7xDx3sHhjA7cG/view")
-                  }
-                />
+              <IconButton
+                aria-label="open live website"
+                onClick={(event) =>
+                  window.open(
+                    "https://drive.google.com/file/d/1TMLQKNRXldldiwccZ4G7xDx3sHhjA7cG/view"
+                  )
+                }
+              >
+                <PreviewIcon />
               </IconButton>
               <Typography color="text.secondary">Source Code</Typography>
-              <IconButton aria-label="source code">
-                <SourceIcon
-                  onClick={(event) =>
-                    window.open("https://github.com/itsmejustino/Make-a-README")
-                  }
-                />
+              <IconButton
+                aria-label="source code"
+                onClick={(event) =>
+                  window.open("https://github.com/itsmejustino/Make-a-README")
+                }
+              >
+                <SourceIcon />
               </IconButton>
 
               <ExpandMore
@@ -82,10 +88,10 @@ export default function ProjectFour({ props }) {
               <CardContent>
                 <Typography paragraph>Technologies and Use:</Typography>
                 <Typography paragraph>
-                 This app was created with Javascript and Node.js. API calls were made with Insomnia.<br></br>
-                 This app has created many of my own readmes and includes the option to provide a license included with svg and link.
-
-            
+                  This app was created with Javascript and Node.js. API calls
+                  were made with Insomnia.<br></br>
+                  This app has created many of my own readmes and includes the
+                  option to provide a license included with svg and link.
                 </Typography>
               </CardContent>
             </Collapse>

@@ -24,8 +24,6 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-
-
 export default function ProjectFive({ props }) {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -35,9 +33,7 @@ export default function ProjectFive({ props }) {
 
   return (
     <div>
-
       <section className="projectContainer">
-  
         <div className="cardsContainer">
           <Card sx={{ maxWidth: 345, marginTop: 5 }}>
             <CardHeader title="Talking-cents: Thoughts that cost a penny" />
@@ -49,25 +45,32 @@ export default function ProjectFive({ props }) {
             />
             <CardContent>
               <Typography variant="body" color="text.secondary">
-                Talking cents is a full stack application that gives users a chance to give their thoughts on a particular topic and vote on other users thoughts. Thoughts can be voted with upvotes, downvotes(trash can), supervotes, or reported. If a user 'loves' a topic they can subscribe to a top to have that tracked in their profile/settings page.
+                Talking cents is a full stack application that gives users a
+                chance to give their thoughts on a particular topic and vote on
+                other users thoughts. Thoughts can be voted with upvotes,
+                downvotes(trash can), supervotes, or reported. If a user 'loves'
+                a topic they can subscribe to a top to have that tracked in
+                their profile/settings page.
               </Typography>
             </CardContent>
             <CardActions disableSpacing>
               <Typography color="text.secondary">Live Site</Typography>
-              <IconButton aria-label="open live website">
-                <PreviewIcon
-                  onClick={(event) =>
-                    window.open("https://www.talking-cents.com/")
-                  }
-                />
+              <IconButton
+                aria-label="open live website"
+                onClick={(event) =>
+                  window.open("https://www.talking-cents.com/")
+                }
+              >
+                <PreviewIcon />
               </IconButton>
               <Typography color="text.secondary">Source Code</Typography>
-              <IconButton aria-label="source code">
-                <SourceIcon
-                  onClick={(event) =>
-                    window.open("https://github.com/itsmejustino/daily-chatter")
-                  }
-                />
+              <IconButton
+                aria-label="source code"
+                onClick={(event) =>
+                  window.open("https://github.com/itsmejustino/daily-chatter")
+                }
+              >
+                <SourceIcon />
               </IconButton>
 
               <ExpandMore
@@ -83,8 +86,9 @@ export default function ProjectFive({ props }) {
               <CardContent>
                 <Typography paragraph>Technologies and Use:</Typography>
                 <Typography paragraph>
-                  This App was created with RedwoodJS, React, Prisma ORM, PostgreSQL, Tailwind CSS, JSX, and RailWay Cloud storage. This app is hosted on Netlify as a live
-                  website. <br></br>
+                  This App was created with RedwoodJS, React, Prisma ORM,
+                  PostgreSQL, Tailwind CSS, JSX, and RailWay Cloud storage. This
+                  app is hosted on Netlify as a live website. <br></br>
                   <br></br>
                   Note: If you would like to try out without creating an account
                   please use this login.<br></br>
@@ -95,7 +99,6 @@ export default function ProjectFive({ props }) {
               </CardContent>
             </Collapse>
           </Card>
-          
         </div>
       </section>
     </div>

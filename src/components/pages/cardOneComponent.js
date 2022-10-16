@@ -24,8 +24,6 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-
-
 export default function Projects({ props }) {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -35,9 +33,7 @@ export default function Projects({ props }) {
 
   return (
     <div>
-
       <section className="projectContainer">
-  
         <div className="cardsContainer">
           <Card sx={{ maxWidth: 345, marginTop: 5 }}>
             <CardHeader title="Pantry-Pal: A Recipe Generator" />
@@ -58,20 +54,22 @@ export default function Projects({ props }) {
             </CardContent>
             <CardActions disableSpacing>
               <Typography color="text.secondary">Live Site</Typography>
-              <IconButton aria-label="open live website">
-                <PreviewIcon
-                  onClick={(event) =>
-                    window.open("https://pantry-pal1.herokuapp.com/")
-                  }
-                />
+              <IconButton
+                aria-label="open live website"
+                onClick={(event) =>
+                  window.open("https://pantry-pal1.herokuapp.com/")
+                }
+              >
+                <PreviewIcon />
               </IconButton>
               <Typography color="text.secondary">Source Code</Typography>
-              <IconButton aria-label="source code">
-                <SourceIcon
-                  onClick={(event) =>
-                    window.open("https://github.com/itsmejustino/Pantry-Pal")
-                  }
-                />
+              <IconButton
+                aria-label="source code"
+                onClick={(event) =>
+                  window.open("https://github.com/itsmejustino/Pantry-Pal")
+                }
+              >
+                <SourceIcon />
               </IconButton>
 
               <ExpandMore
@@ -100,71 +98,6 @@ export default function Projects({ props }) {
               </CardContent>
             </Collapse>
           </Card>
-
-        {/* <div>
-          <Card sx={{ maxWidth: 345, marginTop: 5 }}>
-            <CardHeader title="Pantry-Pal: A Recipe Generator" />
-            <CardMedia
-              component="img"
-              height="194"
-              image={require("../assets/pictures/PantryPal.png")}
-              alt="Pantry-Pal"
-            />
-            <CardContent>
-              <Typography variant="body3" color="text.secondary">
-                Have you ever looked in the pantry and thought "I have nothing
-                good to make for dinner". Pantry-Pal seeks to help its user make
-                that tough decision of what to make for dinner with the random
-                food in the pantry. Users can search a database of recipes with
-                a list of ingredients, keywords, and/or phrases.
-              </Typography>
-            </CardContent>
-            <CardActions disableSpacing>
-              <Typography color="text.secondary">Live Site</Typography>
-              <IconButton aria-label="open live website">
-                <PreviewIcon
-                  onClick={(event) =>
-                    window.open("https://pantry-pal1.herokuapp.com/")
-                  }
-                />
-              </IconButton>
-              <Typography color="text.secondary">Source Code</Typography>
-              <IconButton aria-label="source code">
-                <SourceIcon
-                  onClick={(event) =>
-                    window.open("https://github.com/itsmejustino/Pantry-Pal")
-                  }
-                />
-              </IconButton>
-
-              <ExpandMore
-                expand={expanded}
-                onClick={handleExpandClick}
-                aria-expanded={expanded}
-                aria-label="show more"
-              >
-                <ExpandMoreIcon />
-              </ExpandMore>
-            </CardActions>
-            <Collapse in={expanded} timeout="auto" unmountOnExit>
-              <CardContent>
-                <Typography paragraph>Technologies and Use:</Typography>
-                <Typography paragraph>
-                  This App was created with JavaScript, HandleBars.js, Node.js,
-                  Bootstrap and CSS. This app is hosted on Heroku as a live
-                  website. <br></br>
-                  <br></br>
-                  Note: If you would like to try out without creating an account
-                  please use this login.<br></br>
-                  <br></br>
-                  Email: 'bill@bill.bill'<br></br>
-                  Password: 'test1234'
-                </Typography>
-              </CardContent>
-            </Collapse>
-          </Card>
-          </div> */}
-          
         </div>
       </section>
     </div>

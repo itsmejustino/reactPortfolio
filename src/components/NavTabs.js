@@ -26,18 +26,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           className="noActive"
         >
           <li style={{ listStyleType: "none", textDecoration: "none" }}>
-            Home
+            About
           </li>
-        </Button>
-        <Button
-          variant="outlined"
-          color="inherit"
-          style={{ color: "#2c698d", listStyleType: "none" }}
-          href="#about"
-          onClick={() => handlePageChange("About")}
-          className="noActive"
-        >
-          <li style={{ listStyleType: "none" }}>About</li>
         </Button>
         <Button
           variant="outlined"
