@@ -152,11 +152,13 @@ body {
   align-items: center;
 }
 
-
+.aboutContainer{
+  width: 800px;
+}
 .aboutSection {
   padding: 7em;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1em;
   max-height: 300px;
   align-items: center;

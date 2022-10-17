@@ -5,7 +5,7 @@ import Paper from "@mui/material/Paper";
 
 export default function About() {
   return (
-    <div>
+    <div className="aboutContainer">
       {/* <h1 style={{ padding:'2em', textDecoration:'underline'}}>About Me</h1> */}
       <section className="aboutSection">
         <img className="imgCapture" src={Capture} alt="ProfilePhoto" />
