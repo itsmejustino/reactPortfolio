@@ -6,7 +6,6 @@ import SendIcon from "@mui/icons-material/Send";
 import TextField from "@mui/material/TextField";
 import TextareaAutosize from "@mui/material/TextareaAutosize";
 
-
 export default function Contact() {
   const form = useRef();
 
@@ -67,8 +66,8 @@ export default function Contact() {
           </div>
         </div>
 
-        <div style={{marginTop:'2%'}}>
-          <label >Message:</label> <br></br>
+        <div style={{ marginTop: "2%" }}>
+          <label>Message:</label> <br></br>
           <TextareaAutosize
             aria-label="minimum height"
             minRows={12}
