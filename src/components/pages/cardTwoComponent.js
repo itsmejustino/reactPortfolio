@@ -24,8 +24,6 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-
-
 export default function ProjectTwo({ props }) {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -36,7 +34,6 @@ export default function ProjectTwo({ props }) {
   return (
     <div>
       <section className="projectContainer">
-       
         <div className="cardsContainer">
           <Card sx={{ maxWidth: 345, marginTop: 5 }}>
             <CardHeader title="NuRoute: An app for spicing up your workout routine." />
@@ -48,25 +45,29 @@ export default function ProjectTwo({ props }) {
             />
             <CardContent>
               <Typography variant="body" color="text.secondary">
-                NuRoute helps offer the avid a runner a better way to pick a running route. This app offers a unique way of finding a randomized running route given a location and a distance. 
+                NuRoute helps offer the avid a runner a better way to pick a
+                running route. This app offers a unique way of finding a
+                randomized running route given a location and a distance.
               </Typography>
             </CardContent>
             <CardActions disableSpacing>
               <Typography color="text.secondary">Live Site</Typography>
-              <IconButton aria-label="open live website">
-                <PreviewIcon
-                  onClick={(event) =>
-                    window.open("https://itsmejustino.github.io/NuRoute/")
-                  }
-                />
+              <IconButton
+                aria-label="open live website"
+                onClick={(event) =>
+                  window.open("https://itsmejustino.github.io/NuRoute/")
+                }
+              >
+                <PreviewIcon />
               </IconButton>
               <Typography color="text.secondary">Source Code</Typography>
-              <IconButton aria-label="source code">
-                <SourceIcon
-                  onClick={(event) =>
-                    window.open("https://github.com/itsmejustino/NuRoute")
-                  }
-                />
+              <IconButton
+                aria-label="source code"
+                onClick={(event) =>
+                  window.open("https://github.com/itsmejustino/NuRoute")
+                }
+              >
+                <SourceIcon />
               </IconButton>
 
               <ExpandMore
@@ -82,11 +83,10 @@ export default function ProjectTwo({ props }) {
               <CardContent>
                 <Typography paragraph>Technologies and Use:</Typography>
                 <Typography paragraph>
-                  This App was created with JavaScript, HTML, 
-                  Bulma, and CSS. Fetch API is used to generate quotes from a database at random and Google.maps for the mapping system. This app is hosted on on GitHub Pages as a live
-                  website. <br></br>
-
-            
+                  This App was created with JavaScript, HTML, Bulma, and CSS.
+                  Fetch API is used to generate quotes from a database at random
+                  and Google.maps for the mapping system. This app is hosted on
+                  on GitHub Pages as a live website. <br></br>
                 </Typography>
               </CardContent>
             </Collapse>

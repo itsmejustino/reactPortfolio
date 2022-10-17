@@ -1,7 +1,6 @@
 import React from "react";
 import "../assets/styles/app.css";
 
-
 export default function skillsComponent() {
   return (
     <section className="skillsSection">

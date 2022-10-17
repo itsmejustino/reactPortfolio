@@ -153,7 +153,7 @@ body {
 }
 
 .aboutContainer{
-  width: 800px;
+  max-width: 1100px;
 }
 .aboutSection {
   padding: 7em;
@@ -177,6 +177,7 @@ body {
 .homeTextContainer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   align-content: center;

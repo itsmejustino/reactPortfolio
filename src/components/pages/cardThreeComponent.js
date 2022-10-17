@@ -24,8 +24,6 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-
-
 export default function ProjectThree({ props }) {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -36,7 +34,6 @@ export default function ProjectThree({ props }) {
   return (
     <div>
       <section className="projectContainer">
-       
         <div className="cardsContainer">
           <Card sx={{ maxWidth: 345, marginTop: 5 }}>
             <CardHeader title="myPlanner: A Planning Application" />
@@ -48,25 +45,28 @@ export default function ProjectThree({ props }) {
             />
             <CardContent>
               <Typography variant="body" color="text.secondary">
-                Staying organized is even easier with myPlanner. This app is a daily planner app that provides the ability to plan your day. 
+                Staying organized is even easier with myPlanner. This app is a
+                daily planner app that provides the ability to plan your day.
               </Typography>
             </CardContent>
             <CardActions disableSpacing>
               <Typography color="text.secondary">Live Site</Typography>
-              <IconButton aria-label="open live website">
-                <PreviewIcon
-                  onClick={(event) =>
-                    window.open("https://itsmejustino.github.io/myPlanner/")
-                  }
-                />
+              <IconButton
+                aria-label="open live website"
+                onClick={(event) =>
+                  window.open("https://itsmejustino.github.io/myPlanner/")
+                }
+              >
+                <PreviewIcon />
               </IconButton>
               <Typography color="text.secondary">Source Code</Typography>
-              <IconButton aria-label="source code">
-                <SourceIcon
-                  onClick={(event) =>
-                    window.open("https://github.com/itsmejustino/myPlanner")
-                  }
-                />
+              <IconButton
+                aria-label="source code"
+                onClick={(event) =>
+                  window.open("https://github.com/itsmejustino/myPlanner")
+                }
+              >
+                <SourceIcon />
               </IconButton>
 
               <ExpandMore
@@ -82,11 +82,9 @@ export default function ProjectThree({ props }) {
               <CardContent>
                 <Typography paragraph>Technologies and Use:</Typography>
                 <Typography paragraph>
-                  This App was created with JavaScript, HTML, 
-                  Bootstrap, and CSS. This app is hosted on on GitHub Pages as a live
-                  website. <br></br>
-
-            
+                  This App was created with JavaScript, HTML, Bootstrap, and
+                  CSS. This app is hosted on on GitHub Pages as a live website.{" "}
+                  <br></br>
                 </Typography>
               </CardContent>
             </Collapse>
