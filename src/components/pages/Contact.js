@@ -123,6 +123,7 @@ export default function Contact(props) {
               background: "transparent",
               resize: "none",
               minWidth: "99%",
+              fontSize: "16px",
             }}
             name="message"
             required
