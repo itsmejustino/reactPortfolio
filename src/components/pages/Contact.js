@@ -117,7 +117,7 @@ export default function Contact(props) {
             onChange={handleChange}
             aria-label="minimum height"
             minRows={12}
-            placeholder="Get in Contact with Me"
+            // placeholder="Get in Contact with Me"
             style={{
               borderRadius: "5px",
               background: "transparent",
