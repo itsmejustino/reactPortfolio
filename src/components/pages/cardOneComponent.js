@@ -12,6 +12,7 @@ import Typography from "@mui/material/Typography";
 import PreviewIcon from "@mui/icons-material/Preview";
 import SourceIcon from "@mui/icons-material/Source";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import PropTypes from 'prop-types';
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;

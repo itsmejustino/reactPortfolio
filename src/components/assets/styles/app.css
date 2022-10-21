@@ -5,8 +5,6 @@
 }
 
 body {
-  /* background-image: linear-gradient(to right bottom, #2c698d, #5a82a2, #809cb7, #a5b7cc, #c9d3e1, #ccd6e2, #cfdae4, #d3dde5, #b6c8d1, #98b4bc, #7ba0a6, #608d8d); */
-  /* background-image: url("/src/components/assets/pictures/gradient.jpeg"); */
 
   background: hsla(197, 14%, 57%, 1);
 
