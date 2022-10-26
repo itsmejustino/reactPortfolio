@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 * {
   font-family: "Poppins", sans-serif;
-  /* background-color: #737b7d */
 }
 
 body {
-
   background: hsla(197, 14%, 57%, 1);
 
   background: linear-gradient(
@@ -39,15 +37,14 @@ body {
 .noActive:visited,
 .noActive:link,
 .noActive:active {
-
   color: black;
 }
 .noActive:focus {
   background: #2c698d40;
   outline: none;
   -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
-     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
-          box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
 }
 
 .svgContainer {
@@ -69,18 +66,19 @@ body {
   margin-top: 2%;
   flex-wrap: wrap;
   flex-direction: column;
+ 
 }
 .skillsContainer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 2%;
-  /* background: rgb(225, 222, 222); */
   margin-right: 50px;
   margin-left: 50px;
   border-radius: 10px;
   gap: 2em;
   padding: 1.2em;
+  max-width: 65rem;
 }
 .skillsHeader {
   justify-content: center;
@@ -91,24 +89,14 @@ body {
   fill: #2c698d;
   text-decoration: none;
 }
-/* footer {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  position: relative;
-  min-height: 100vh;
-} */
 
-.projectsDiv{
+.projectsDiv {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items:center;
-  align-content:center;
+  align-items: center;
+  align-content: center;
   gap: 2em;
 }
 .projectContainer {
@@ -127,6 +115,81 @@ body {
 .cardsContainer {
   display: flex;
   justify-content: center;
+}
+@keyframes myButtonAnim {
+	0%,
+	100% {
+		transform: translateY(0) rotate(0);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateY(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateY(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateY(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateY(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateY(-6px) rotate(1.2deg);
+	}
+}
+
+
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
 }
 
 .jsContainer,
@@ -148,9 +211,12 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
+  animation: myAnim 2s ease 0s 1 normal forwards;
 }
-
-.aboutContainer{
+.ani{
+  animation: myButtonAnim 3s ease 0s 1 normal forwards;
+}
+.aboutContainer {
   max-width: 1100px;
 }
 .aboutSection {
@@ -180,58 +246,17 @@ body {
   align-items: center;
   align-content: center;
   margin-top: 200px;
+  
+}
+.typeWriterContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-text: center;
+  font-size: 2rem;
 }
 
-.homeText {
-  white-space: nowrap;
-  overflow: hidden;
-  font-family: "Source Code Pro", monospace;
-  font-size: 30px;
-  color: rgba(8, 8, 8, 0.7);
-  margin: auto;
-}
-
-@keyframes typeText {
-  0%,
-  100% {
-    width: 0;
-  }
-  20%,
-  80% {
-    width: 26.6em;
-  }
-}
-
-@keyframes blinkingCarrot {
-  0%,
-  100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-.homeText {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typeText;
-  display: inline-block;
-  position: relative;
-  animation-duration: 10s;
-  animation-timing-function: steps(48, end);
-  animation-iteration-count: infinite;
-}
-
-.homeText::after {
-  content: "|";
-  position: absolute;
-  right: 0;
-  animation: blinkingCarrot infinite;
-  animation-duration: 0.9s;
-  animation-timing-function: steps(1, end);
-}
-
+/* footer */
 .copyrightContainer {
   display: flex;
   justify-content: center;
@@ -244,6 +269,7 @@ body {
   padding: 0;
 }
 
+/* Media Queries */
 @media only screen and (max-width: 1500px) {
   .aboutSection {
     padding: 7em;
@@ -252,10 +278,9 @@ body {
     gap: 1em;
     max-height: 400px;
     align-items: center;
-    
+
     flex-wrap: wrap;
   }
-  
 }
 
 @media only screen and (max-width: 380px) {

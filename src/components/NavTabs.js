@@ -54,6 +54,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </li>
         </Button>
         <Button
+          className="ani"
           variant="outlined"
           color="inherit"
           style={{

@@ -145,9 +145,10 @@ export default function Contact(props) {
           </Button>
           <Snackbar
             anchorOrigin={{ vertical, horizontal }}
+            autoHideDuration={6000}
             open={open}
             onClose={handleClose}
-            message="Your message was sent successfully!"
+            message='Your message was sent successfully!'
             key={vertical + horizontal}
           />
         </div>
