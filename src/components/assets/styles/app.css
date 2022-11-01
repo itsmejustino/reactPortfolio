@@ -211,7 +211,6 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
-  animation: myAnim 2s ease 0s 1 normal forwards;
 }
 .ani{
   animation: myButtonAnim 3s ease 0s 1 normal forwards;
