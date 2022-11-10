@@ -1,10 +1,9 @@
 import React from "react";
 import Button from "@mui/material/Button";
-
 import DownloadIcon from "@mui/icons-material/Download";
 import "./assets/styles/app.css";
 
-function NavTabs({ currentPage, handlePageChange }) {
+function NavTabs({ handlePageChange }) {
   return (
     <nav
       style={{
@@ -64,7 +63,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             marginRight: "10px",
           }}
           endIcon={<DownloadIcon />}
-          href={require("../components/assets/docs/Justin_Ortiz_Resume.pdf")}
+          href={require("../components/assets/docs/Ortiz_Resume.pdf")}
           download="JustinOResume"
         >
           <li style={{ listStyleType: "none", textDecoration: "none" }}>
