@@ -58,7 +58,7 @@ export default function Projects({ props }) {
               <IconButton
                 aria-label="open live website"
                 onClick={(event) =>
-                  window.open("https://pantry-pal1.herokuapp.com/")
+                  window.open("https://pantry-pal-production.up.railway.app/")
                 }
               >
                 <PreviewIcon />
