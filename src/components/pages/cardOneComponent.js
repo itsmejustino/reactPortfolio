@@ -87,7 +87,7 @@ export default function Projects({ props }) {
                 <Typography paragraph>Technologies and Use:</Typography>
                 <Typography paragraph>
                   This App was created with JavaScript, HandleBars.js, Node.js,
-                  Bootstrap and CSS. This app is hosted on Heroku as a live
+                  Bootstrap and CSS. This app is hosted on Railway as a live
                   website. <br></br>
                   <br></br>
                   Note: If you would like to try out without creating an account
