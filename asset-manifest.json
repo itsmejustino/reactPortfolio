@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.815450ae.css",
-    "main.js": "/reactPortfolio/static/js/main.6ca7d9ca.js",
-    "static/media/readMeGen.gif": "/reactPortfolio/static/media/readMeGen.4ba01e60fca2966947c9.gif",
-    "static/media/talkingcents.gif": "/reactPortfolio/static/media/talkingcents.080635f0981269f6e86e.gif",
-    "static/media/NR-pic.PNG": "/reactPortfolio/static/media/NR-pic.042af40dc4e2395e8193.PNG",
-    "static/media/Ortiz_Resume.pdf": "/reactPortfolio/static/media/Ortiz_Resume.e192ed16c9d7660b3cdf.pdf",
-    "static/media/1623955408464.jpg": "/reactPortfolio/static/media/1623955408464.ca3a06d297eac4b415ee.jpg",
-    "static/media/myplanner.PNG": "/reactPortfolio/static/media/myplanner.7231809c0527e3938039.PNG",
-    "static/media/mongodb.svg": "/reactPortfolio/static/media/mongodb.d5a9f33e37cd72ecff0d61eea1650d1e.svg",
-    "static/media/PantryPal.png": "/reactPortfolio/static/media/PantryPal.02504da1ad563e5a81a5.png",
-    "static/media/icons8-mysql-logo.svg": "/reactPortfolio/static/media/icons8-mysql-logo.f424dfee6944d8eff7560407b37d6857.svg",
-    "static/media/netlify.svg": "/reactPortfolio/static/media/netlify.b27875f53562a3339a319dbc7410c883.svg",
-    "static/media/redwoodjs-svgrepo-com.svg": "/reactPortfolio/static/media/redwoodjs-svgrepo-com.c816a11787217fec82b7b1ae8b7fe103.svg",
-    "static/media/railway.svg": "/reactPortfolio/static/media/railway.56f5a62bb5b61a28118417e550d7d21c.svg",
-    "index.html": "/reactPortfolio/index.html",
-    "static/media/heroku.svg": "/reactPortfolio/static/media/heroku.fa391d33396b9b39ca57ee9720e1bd06.svg",
-    "main.815450ae.css.map": "/reactPortfolio/static/css/main.815450ae.css.map",
-    "main.6ca7d9ca.js.map": "/reactPortfolio/static/js/main.6ca7d9ca.js.map"
+    "main.css": "/static/css/main.815450ae.css",
+    "main.js": "/static/js/main.5f857119.js",
+    "static/media/readMeGen.gif": "/static/media/readMeGen.4ba01e60fca2966947c9.gif",
+    "static/media/talkingcents.gif": "/static/media/talkingcents.080635f0981269f6e86e.gif",
+    "static/media/NR-pic.PNG": "/static/media/NR-pic.042af40dc4e2395e8193.PNG",
+    "static/media/Ortiz_Resume.pdf": "/static/media/Ortiz_Resume.e192ed16c9d7660b3cdf.pdf",
+    "static/media/1623955408464.jpg": "/static/media/1623955408464.ca3a06d297eac4b415ee.jpg",
+    "static/media/myplanner.PNG": "/static/media/myplanner.7231809c0527e3938039.PNG",
+    "static/media/mongodb.svg": "/static/media/mongodb.d5a9f33e37cd72ecff0d61eea1650d1e.svg",
+    "static/media/PantryPal.png": "/static/media/PantryPal.02504da1ad563e5a81a5.png",
+    "static/media/icons8-mysql-logo.svg": "/static/media/icons8-mysql-logo.f424dfee6944d8eff7560407b37d6857.svg",
+    "static/media/netlify.svg": "/static/media/netlify.b27875f53562a3339a319dbc7410c883.svg",
+    "static/media/redwoodjs-svgrepo-com.svg": "/static/media/redwoodjs-svgrepo-com.c816a11787217fec82b7b1ae8b7fe103.svg",
+    "static/media/railway.svg": "/static/media/railway.56f5a62bb5b61a28118417e550d7d21c.svg",
+    "index.html": "/index.html",
+    "static/media/heroku.svg": "/static/media/heroku.fa391d33396b9b39ca57ee9720e1bd06.svg",
+    "main.815450ae.css.map": "/static/css/main.815450ae.css.map",
+    "main.5f857119.js.map": "/static/js/main.5f857119.js.map"
   },
   "entrypoints": [
     "static/css/main.815450ae.css",
-    "static/js/main.6ca7d9ca.js"
+    "static/js/main.5f857119.js"
   ]
 }
