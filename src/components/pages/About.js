@@ -16,7 +16,7 @@ export default function About() {
 
            Hello! <br></br><br></br>
            
-           My name is Justin Ortiz, I'm a web developer that is dedicated to creating user-centric web-solutions in the form of applications and websites. Since typing my first hello world app at the age of 15 I felt a connection to the code.
+           My name is Justin Ortiz, I'm a web developer that is dedicated to creating user-centric web-solutions in the form of applications and websites. Since typing my first hello world app at the age of 15 I felt a connection to code.
 
 
           </p>
