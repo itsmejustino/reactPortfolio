@@ -42,6 +42,8 @@ export default function PageHandler() {
             <a
               className="linkedin"
               href="https://www.linkedin.com/in/justin-ortiz-56579612a/"
+              target = "_blank"
+              rel='noreferrer'
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -56,6 +58,8 @@ export default function PageHandler() {
             <a
               className="github"
               href="https://github.com/itsmejustino?tab=repositories"
+              target = "_blank"
+              rel='noreferrer'
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
