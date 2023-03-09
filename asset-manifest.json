@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.815450ae.css",
-    "main.js": "/static/js/main.acd95aee.js",
+    "main.js": "/static/js/main.3924c1a3.js",
     "static/media/readMeGen.gif": "/static/media/readMeGen.4ba01e60fca2966947c9.gif",
     "static/media/talkingcents.gif": "/static/media/talkingcents.080635f0981269f6e86e.gif",
     "static/media/NR-pic.PNG": "/static/media/NR-pic.042af40dc4e2395e8193.PNG",
-    "static/media/Ortiz_Resume.pdf": "/static/media/Ortiz_Resume.e192ed16c9d7660b3cdf.pdf",
+    "static/media/Justin_Ortiz_Resume.pdf": "/static/media/Justin_Ortiz_Resume.e6e3e45b2c7e980d3664.pdf",
     "static/media/1623955408464.jpg": "/static/media/1623955408464.ca3a06d297eac4b415ee.jpg",
     "static/media/myplanner.PNG": "/static/media/myplanner.7231809c0527e3938039.PNG",
     "static/media/mongodb.svg": "/static/media/mongodb.d5a9f33e37cd72ecff0d61eea1650d1e.svg",
@@ -17,10 +17,10 @@
     "index.html": "/index.html",
     "static/media/heroku.svg": "/static/media/heroku.fa391d33396b9b39ca57ee9720e1bd06.svg",
     "main.815450ae.css.map": "/static/css/main.815450ae.css.map",
-    "main.acd95aee.js.map": "/static/js/main.acd95aee.js.map"
+    "main.3924c1a3.js.map": "/static/js/main.3924c1a3.js.map"
   },
   "entrypoints": [
     "static/css/main.815450ae.css",
-    "static/js/main.acd95aee.js"
+    "static/js/main.3924c1a3.js"
   ]
 }
